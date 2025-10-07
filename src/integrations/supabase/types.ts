@@ -14,7 +14,249 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      chat_messages: {
+        Row: {
+          content: string
+          conversation_id: string
+          created_at: string
+          id: string
+          role: string
+          user_id: string
+        }
+        Insert: {
+          content: string
+          conversation_id: string
+          created_at?: string
+          id?: string
+          role: string
+          user_id: string
+        }
+        Update: {
+          content?: string
+          conversation_id?: string
+          created_at?: string
+          id?: string
+          role?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "chat_messages_user_id_fkey"
+            columns: ["user_id"]
+            isOneToOne: false
+            referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      points_transactions: {
+        Row: {
+          amount: number
+          created_at: string
+          description: string
+          id: string
+          related_id: string | null
+          transaction_type: string
+          user_id: string
+        }
+        Insert: {
+          amount: number
+          created_at?: string
+          description: string
+          id?: string
+          related_id?: string | null
+          transaction_type: string
+          user_id: string
+        }
+        Update: {
+          amount?: number
+          created_at?: string
+          description?: string
+          id?: string
+          related_id?: string | null
+          transaction_type?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "points_transactions_user_id_fkey"
+            columns: ["user_id"]
+            isOneToOne: false
+            referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      profiles: {
+        Row: {
+          avatar_url: string | null
+          co2_saved_kg: number
+          created_at: string
+          email: string
+          full_name: string | null
+          id: string
+          items_recycled: number
+          total_points: number
+          updated_at: string
+        }
+        Insert: {
+          avatar_url?: string | null
+          co2_saved_kg?: number
+          created_at?: string
+          email: string
+          full_name?: string | null
+          id: string
+          items_recycled?: number
+          total_points?: number
+          updated_at?: string
+        }
+        Update: {
+          avatar_url?: string | null
+          co2_saved_kg?: number
+          created_at?: string
+          email?: string
+          full_name?: string | null
+          id?: string
+          items_recycled?: number
+          total_points?: number
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      recycling_submissions: {
+        Row: {
+          ai_confidence: number | null
+          co2_saved_kg: number
+          created_at: string
+          id: string
+          image_url: string
+          item_type: string
+          material_category: string
+          points_earned: number
+          user_id: string
+          verified_at: string
+        }
+        Insert: {
+          ai_confidence?: number | null
+          co2_saved_kg: number
+          created_at?: string
+          id?: string
+          image_url: string
+          item_type: string
+          material_category: string
+          points_earned: number
+          user_id: string
+          verified_at?: string
+        }
+        Update: {
+          ai_confidence?: number | null
+          co2_saved_kg?: number
+          created_at?: string
+          id?: string
+          image_url?: string
+          item_type?: string
+          material_category?: string
+          points_earned?: number
+          user_id?: string
+          verified_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "recycling_submissions_user_id_fkey"
+            columns: ["user_id"]
+            isOneToOne: false
+            referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      reward_redemptions: {
+        Row: {
+          completed_at: string | null
+          created_at: string
+          id: string
+          points_spent: number
+          redemption_code: string | null
+          reward_id: string
+          status: string
+          user_id: string
+        }
+        Insert: {
+          completed_at?: string | null
+          created_at?: string
+          id?: string
+          points_spent: number
+          redemption_code?: string | null
+          reward_id: string
+          status?: string
+          user_id: string
+        }
+        Update: {
+          completed_at?: string | null
+          created_at?: string
+          id?: string
+          points_spent?: number
+          redemption_code?: string | null
+          reward_id?: string
+          status?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "reward_redemptions_reward_id_fkey"
+            columns: ["reward_id"]
+            isOneToOne: false
+            referencedRelation: "rewards"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "reward_redemptions_user_id_fkey"
+            columns: ["user_id"]
+            isOneToOne: false
+            referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      rewards: {
+        Row: {
+          available_quantity: number | null
+          category: string
+          created_at: string
+          description: string
+          id: string
+          image_url: string | null
+          is_active: boolean
+          partner_name: string
+          points_cost: number
+          title: string
+        }
+        Insert: {
+          available_quantity?: number | null
+          category: string
+          created_at?: string
+          description: string
+          id?: string
+          image_url?: string | null
+          is_active?: boolean
+          partner_name: string
+          points_cost: number
+          title: string
+        }
+        Update: {
+          available_quantity?: number | null
+          category?: string
+          created_at?: string
+          description?: string
+          id?: string
+          image_url?: string | null
+          is_active?: boolean
+          partner_name?: string
+          points_cost?: number
+          title?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
