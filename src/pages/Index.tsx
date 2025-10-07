@@ -28,12 +28,9 @@ const Index = () => {
                 track your environmental impact, and earn rewards for making a difference.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <Button size="lg" variant="hero" className="text-lg">
+                <Button size="lg" variant="hero" className="text-lg" onClick={() => window.location.href = '/auth'}>
                   <Sparkles className="w-5 h-5" />
                   Get Started Free
-                </Button>
-                <Button size="lg" variant="outline" className="text-lg">
-                  Learn More
                 </Button>
               </div>
               <div className="flex flex-wrap gap-8 justify-center lg:justify-start pt-6">

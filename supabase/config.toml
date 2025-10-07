@@ -1,1 +1,7 @@
 project_id = "ocpkxwnqsenrhxcrdcti"
+
+[functions.verify-recyclable]
+verify_jwt = true
+
+[functions.eco-chatbot]
+verify_jwt = true
