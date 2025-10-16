@@ -167,6 +167,9 @@ The AI-Powered Recycling Rewards App is a web-based platform that uses artificia
 └─────────────────────────────────────────────────────────┘
 ```
 
+## mvp live demo : 
+https://ai-eco-rewards.vercel.app/
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -439,17 +442,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Team
 
-- **Project Lead**: [Your Name]
-- **Development**: [Team Members]
-- **Design**: [Designer Names]
-- **AI/ML**: [AI Specialist]
+- **Project Lead**: Mercy Ndiritu
+- **Development**: Mercy Ndiritu
+- **Design**: Mercy Ndiritu
+- **AI/ML**: Mercy Ndiritu
 
 ## 📞 Contact
 
-- **Email**: contact@recyclingrewards.app
-- **Website**: https://www.recyclingrewards.app
-- **Twitter**: @RecycleRewards
-- **LinkedIn**: [Company Page]
+- **Email**: mewanjikundiritu@gmail.com
+- **Website**: 
+- **LinkedIn**: 
 
 ## 🙏 Acknowledgments
 
