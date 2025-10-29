@@ -466,3 +466,36 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Made with 💚 for a sustainable future**
 
 *Last Updated: October 16, 2025*
+<img width="373" height="816" alt="Screenshot 2025-10-29 152349" src="https://github.com/user-attachments/assets/818ea084-1477-4647-bc63-33a683303c6c" />
+
+
+
+<img width="379" height="810" alt="Screenshot 2025-10-29 152358" src="https://github.com/user-attachments/assets/e146f6a3-d4ce-4acb-9f47-f0049d025e05" />
+
+
+<img width="381" height="816" alt="Screenshot 2025-10-29 152408" src="https://github.com/user-attachments/assets/fc52fa00-50d8-4388-b2da-b2e1312d81b8" />
+
+<img width="372" height="812" alt="Screenshot 2025-10-29 152421" src="https://github.com/user-attachments/assets/d8e3366d-a5af-4caa-8026-069eb5f513b3" />
+
+
+
+<img width="370" height="817" alt="Screenshot 2025-10-29 152432" src="https://github.com/user-attachments/assets/9587d0c7-bfe6-4e7f-a7f0-c71a7c7f0aa2" />
+<img width="379" height="819" alt="Screenshot 2025-10-29 152445" src="https://github.com/user-attachments/assets/6e6beb33-0a88-49e7-9772-76b7575ae702" />
+
+<img width="380" height="814" alt="Screenshot 2025-10-29 152515" src="https://github.com/user-attachments/assets/fa93bf93-fb2f-4bf1-8593-73efbe3c630f" />
+
+<img width="380" height="814" alt="Screenshot 2025-10-29 152515" src="https://github.com/user-attachments/assets/a19cc14d-f424-4a2e-83a5-2e89d9751065" />
+
+
+
+
+<img width="391" height="814" alt="Screenshot 2025-10-29 152959" src="https://github.com/user-attachments/assets/9990aed2-2e7a-4bac-8606-29579006491c" />
+
+<img width="360" height="761" alt="Screenshot 2025-10-29 152613" src="https://github.com/user-attachments/assets/cf36ddda-63b9-45fb-82e8-70ad980fc784" />
+
+<img width="377" height="761" alt="Screenshot 2025-10-29 152635" src="https://github.com/user-attachments/assets/669ded70-ceab-44ca-948b-33ec7325f8a0" />
+
+
+<img width="373" height="824" alt="Screenshot 2025-10-29 152648" src="https://github.com/user-attachments/assets/ec2656bb-3fe7-4f5a-8135-386aa79ad8f3" />
+
+
