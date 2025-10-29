@@ -465,7 +465,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with 💚 for a sustainable future**
 
-*Last Updated: October 16, 2025*
+
 <img width="373" height="816" alt="Screenshot 2025-10-29 152349" src="https://github.com/user-attachments/assets/818ea084-1477-4647-bc63-33a683303c6c" />
 
 
@@ -497,5 +497,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 <img width="373" height="824" alt="Screenshot 2025-10-29 152648" src="https://github.com/user-attachments/assets/ec2656bb-3fe7-4f5a-8135-386aa79ad8f3" />
+
+*Last Updated: October 29, 2025*
 
 
